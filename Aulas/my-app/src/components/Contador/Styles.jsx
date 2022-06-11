@@ -3,23 +3,21 @@ import styled from "styled-components";
 export const Titulo = styled.h3`
   font-size: 20px;
   font-family: sans-serif;
-  color: #50fa7b;
+  color: violet;
 `;
 
 export const Botao = styled.button`
-  background-color: #bd93f9;
-  color: #f8f8f2;
-  border: 1px solid #6272a4;
+  background-color: #4e034e;
+  color: #fff;
+  border: 1px solid #ae66ae;
   padding: 7px;
   margin-right: 10px;
   border-radius: 5px;
-
   &:hover {
-    background-color: #ff79c6;
+    background-color: #780778;
   }
 `;
 
 export const MensagemErro = styled.p`
-  color: #ff5555;
-  font-weight: bold;
+  color: red;
 `;
