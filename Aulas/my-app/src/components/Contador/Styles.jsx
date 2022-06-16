@@ -33,3 +33,4 @@ export const BotaoZerar = styled(Button)`
 		margin-right: 10px;
 	}
 `;
+
