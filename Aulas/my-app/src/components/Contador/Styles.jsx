@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 export const Titulo = styled.h3`
 	font-size: 20px;
 	font-family: sans-serif;
-	color: violet;
+	/* color: violet; */
 `;
 
 export const Botao = styled.button`
@@ -33,4 +33,3 @@ export const BotaoZerar = styled(Button)`
 		margin-right: 10px;
 	}
 `;
-

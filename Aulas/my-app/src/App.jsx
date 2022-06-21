@@ -13,10 +13,16 @@ function App() {
 	const tema = {
 		claro: {
 			backgroundColor: "#fff",
+			color: "#363535",
 		},
 		escuro: {
 			backgroundColor: "#44475a",
 			color: "#f8f8f2",
+			overrides: {
+				Button: {
+					backgroundColor: "#44475a",
+				},
+			},
 		},
 	};
 
